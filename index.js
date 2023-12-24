@@ -1,13 +1,13 @@
 
 //todas las funciones se han simplificado lo más posible 
 
-// conectando a WhatsApp web usando Baileys https://www.github.com/adiwajshing/baileys
+// conectando a WhatsApp web usando Baileys https://github.com/WhiskeySockets/Baileys
 const {
   MessageType,
   Mimetype,
   GroupSettingChange,
   mentionedJid
-} = require("@adiwajshing/baileys");
+} = require("@WhiskeySockets/Baileys");
 
 // functions node modules
 const speed = require('performance-now');
